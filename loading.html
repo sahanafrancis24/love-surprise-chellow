@@ -1,0 +1,29 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Loading Our Memories</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <script defer src="js/main.js"></script>
+</head>
+<body data-page="loading">
+  <div id="pageBg" class="background-layer bg-zoom"></div>
+  <div class="background-overlay"></div>
+  <div id="heartLayer" class="heart-layer"></div>
+  <div id="emojiLayer" class="emoji-layer"></div>
+  <div id="toast"></div>
+  <div class="cursor-glow"></div>
+
+  <main class="container">
+    <section class="glass-card loading-wrap">
+      <div class="heart-pulse">❤️</div>
+      <h2 data-key="loadingText">Loading Our Memories... ❤️</h2>
+      <div class="progress-shell"><div class="progress-bar"></div></div>
+    </section>
+  </main>
+
+  <audio id="bgMusic" loop></audio>
+  <audio id="heartbeatSfx"></audio>
+</body>
+</html>

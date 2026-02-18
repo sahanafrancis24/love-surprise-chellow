@@ -1,0 +1,37 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Forever Us</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <script defer src="js/main.js"></script>
+</head>
+<body data-page="final">
+  <div id="pageBg" class="background-layer bg-zoom"></div>
+  <div class="background-overlay"></div>
+  <div id="heartLayer" class="heart-layer"></div>
+  <div id="emojiLayer" class="emoji-layer"></div>
+  <div id="confettiLayer" class="confetti-layer"></div>
+  <button id="musicToggle" class="btn alt music-toggle" type="button">Play ♫</button>
+  <div id="toast"></div>
+  <div class="cursor-glow"></div>
+
+  <main class="container">
+    <section id="finalPopup" class="glass-card popup">
+      <h2>Forever Starts Here 💞</h2>
+      <p id="finalText"></p>
+      <div class="photo-frame" style="max-width:240px;">
+        <img id="couplePhoto" src="" alt="Couple photo" />
+      </div>
+      <div class="btn-row">
+        <button id="replayBtn" class="btn alt" type="button">Replay Journey 🔁</button>
+        <button id="copyBtn" class="btn" type="button">Send Love 💌</button>
+      </div>
+    </section>
+  </main>
+
+  <audio id="bgMusic" loop></audio>
+  <audio id="heartbeatSfx"></audio>
+</body>
+</html>

@@ -1,0 +1,35 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Proposal</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <script defer src="js/main.js"></script>
+</head>
+<body data-page="proposal">
+  <div id="pageBg" class="background-layer bg-zoom"></div>
+  <div class="background-overlay"></div>
+  <div id="heartLayer" class="heart-layer"></div>
+  <div id="emojiLayer" class="emoji-layer"></div>
+  <button id="musicToggle" class="btn alt music-toggle" type="button">Play ♫</button>
+  <div id="toast"></div>
+  <div class="cursor-glow"></div>
+
+  <main class="container">
+    <section class="glass-card">
+      <h1 data-key="proposalLine">Will You Be Mine Forever? 💍💙</h1>
+      <div class="btn-row">
+        <button id="yesBtn" class="btn" type="button">YES ❤️</button>
+        <span class="no-wrap">
+          <button id="noBtn" class="btn alt no-btn" type="button">NO 🙈</button>
+          <div class="no-hint" data-key="noHint">YOU CAN GIVE 5 NO'S</div>
+        </span>
+      </div>
+    </section>
+  </main>
+
+  <audio id="bgMusic" loop></audio>
+  <audio id="heartbeatSfx"></audio>
+</body>
+</html>

@@ -1,0 +1,36 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Photo Memory Reveal</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <script defer src="js/main.js"></script>
+</head>
+<body data-page="page2">
+  <div id="pageBg" class="background-layer bg-zoom"></div>
+  <div class="background-overlay"></div>
+  <div id="heartLayer" class="heart-layer"></div>
+  <div id="emojiLayer" class="emoji-layer"></div>
+  <button id="musicToggle" class="btn alt music-toggle" type="button">Play ♫</button>
+  <div id="toast"></div>
+  <div class="cursor-glow"></div>
+
+  <main class="container">
+    <section class="glass-card">
+      <h2 data-key="page2Question">Do you remember this day? ✨</h2>
+      <div id="page2PhotoFrame" class="photo-frame slide-up">
+        <img id="page2Photo" src="" alt="Memory photo" />
+      </div>
+      <div class="btn-row">
+        <button id="p2Yes" class="btn" type="button">YES I DO ❤️</button>
+        <button id="p2No" class="btn alt" type="button">NO😅</button>
+        <button id="page2Next" class="btn" type="button" data-next="page3.html" disabled>Next ➜</button>
+      </div>
+    </section>
+  </main>
+
+  <audio id="bgMusic" loop></audio>
+  <audio id="heartbeatSfx"></audio>
+</body>
+</html>

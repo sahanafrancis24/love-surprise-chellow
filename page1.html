@@ -1,0 +1,36 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>First Memory</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <script defer src="js/main.js"></script>
+</head>
+<body data-page="page1">
+  <div id="pageBg" class="background-layer bg-zoom"></div>
+  <div class="background-overlay"></div>
+  <div id="heartLayer" class="heart-layer"></div>
+  <div id="emojiLayer" class="emoji-layer"></div>
+  <button id="musicToggle" class="btn alt music-toggle" type="button">Play ♫</button>
+  <div id="toast"></div>
+  <div class="cursor-glow"></div>
+
+  <main class="container">
+    <section id="page1Card" class="glass-card">
+      <h2 data-key="page1Question">Where did we first meet? 💞</h2>
+      <form id="page1Form">
+        <input id="meetInput" class="input" type="text" placeholder="Type your answer" autocomplete="off" />
+        <div class="btn-row">
+          <button class="btn" type="submit">Submit 💘</button>
+          <button id="page1Next" class="btn alt" type="button" data-next="page2.html" disabled>Next ➜</button>
+        </div>
+      </form>
+      <p id="page1Feedback" class="feedback"></p>
+    </section>
+  </main>
+
+  <audio id="bgMusic" loop></audio>
+  <audio id="heartbeatSfx"></audio>
+</body>
+</html>

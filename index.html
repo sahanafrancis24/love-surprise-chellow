@@ -1,0 +1,33 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>A Journey of Us</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <script defer src="js/main.js"></script>
+</head>
+<body data-page="index">
+  <div id="pageBg" class="background-layer bg-zoom"></div>
+  <div class="background-overlay"></div>
+  <div id="heartLayer" class="heart-layer"></div>
+  <div id="emojiLayer" class="emoji-layer"></div>
+  <button id="musicToggle" class="btn alt music-toggle" type="button">Play ♫</button>
+  <div id="toast"></div>
+  <div class="cursor-glow"></div>
+
+  <main class="container">
+    <section class="glass-card">
+      <p class="names" data-key="names">Name1 ❤️ Name2</p>
+      <h1 data-key="indexTitle">A Journey of Us 💕</h1>
+      <p data-key="indexSubtitle">Every memory has a heartbeat...</p>
+      <div class="btn-row">
+        <button id="beginBtn" class="btn" type="button" data-key="beginButton">Begin The Journey 💌</button>
+      </div>
+    </section>
+  </main>
+
+  <audio id="bgMusic" loop></audio>
+  <audio id="heartbeatSfx"></audio>
+</body>
+</html>

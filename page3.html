@@ -1,0 +1,39 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mini Quiz</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <script defer src="js/main.js"></script>
+</head>
+<body data-page="page3">
+  <div id="pageBg" class="background-layer bg-zoom"></div>
+  <div class="background-overlay"></div>
+  <div id="heartLayer" class="heart-layer"></div>
+  <div id="emojiLayer" class="emoji-layer"></div>
+  <button id="musicToggle" class="btn alt music-toggle" type="button">Play ♫</button>
+  <div id="toast"></div>
+  <div class="cursor-glow"></div>
+
+  <main class="container">
+    <section class="glass-card" id="sparkleHost">
+      <h2 data-key="page3Question">What I gave you that day? 🥹🤍</h2>
+      <form id="page3Form">
+        <input id="giftInput" class="input glow-input" type="text" placeholder="Your answer" autocomplete="off" />
+        <div class="btn-row">
+          <button class="btn" type="submit">Check 💫</button>
+          <button id="page3Next" class="btn alt" type="button" data-next="page4.html" disabled>Next ➜</button>
+        </div>
+      </form>
+      <p id="page3Feedback" class="feedback"></p>
+      <div class="photo-frame" style="max-width:240px;">
+        <img id="page3Photo" src="" alt="Quiz memory" />
+      </div>
+    </section>
+  </main>
+
+  <audio id="bgMusic" loop></audio>
+  <audio id="heartbeatSfx"></audio>
+</body>
+</html>
